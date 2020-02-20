@@ -1,0 +1,38 @@
+accessible: true
+author: ''
+categories: []
+context: |
+    Write a function that takes three numbers as parameters and returns their sum.
+
+    | Example input
+    | sum(2,3,6)
+    |
+    | Example output
+    | 11
+environment: default
+evaluate: best
+file: ''
+groups: false
+input_random: '0'
+limits:
+    memory: '100'
+    output: '2'
+    time: '30'
+name: sum of three numbers
+network_grading: false
+order: 1
+problems:
+    q1:
+        default: |-
+            def sum(a,b,c):
+            # return the sum
+        type: code
+        name: Code below
+        language: python
+        header: ''
+run_cmd: ''
+stored_submissions: 0
+submission_limit:
+    amount: -1
+    period: -1
+weight: 1.0

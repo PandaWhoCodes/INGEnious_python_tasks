@@ -1,0 +1,44 @@
+accessible: true
+author: ''
+categories: []
+context: |-
+    Write a function that takes the length of the base and the height of a right-angled triangle(as parameter) and returns the area.
+
+    .. image:: http://i.imgur.com/6EkzVxA.jpg
+
+
+    |
+    | Example input
+    | area(3,5)
+    | Example output
+    | 7.5
+    |
+
+    .. note::  These inputs are passed as parameters to a function. **return** the output.
+environment: default
+evaluate: best
+file: ''
+groups: false
+input_random: '0'
+limits:
+    memory: '100'
+    output: '2'
+    time: '30'
+name: area of triangle
+network_grading: false
+order: 2
+problems:
+    q1:
+        default: |-
+            def area(a,b):
+            #return the area
+        type: code
+        name: Write code below
+        language: python
+        header: ''
+run_cmd: ''
+stored_submissions: 0
+submission_limit:
+    amount: -1
+    period: -1
+weight: 1.0

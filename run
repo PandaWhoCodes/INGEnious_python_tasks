@@ -1,0 +1,87 @@
+#! /usr/bin/python3
+# -*- coding: utf-8 -*-
+
+import subprocess
+import gettext
+import shlex
+import sys
+import os
+
+from inginious import feedback
+from inginious import rst
+from inginious import input
+
+# This runner is adapted from the typical exercises runner of LSINF1101/FSAB1401
+# Its only use is to provide a sandbox to the user and provide in the feedback what is printed
+# Structure used:
+#  -One folder : src with a subdirectory containing the templates
+#  -A run file
+#  -A task file
+# Note that beside this structure we use the global folder common containing:
+#  -The compiler script
+
+def init_translations():
+    """
+        Move the translations files to student directory
+        Initialize gettext and translate to the proper language
+    """
+    if "@lang" in input.load_input():
+        lang = input.get_lang()
+        try:
+            trad = gettext.GNUTranslations(open("../course/common_student/$i18n/" + lang + ".mo", "rb"))
+        except FileNotFoundError:
+            trad = gettext.NullTranslations()
+        trad.install()
+        return lang
+    trad = gettext.NullTranslations()
+    trad.install()
+    return "en"
+
+def compute_code():
+    """
+        Fills the template file with the student answer
+        Returns the task's number of questions
+    """
+    for file in os.listdir('./src/Templates'):
+        input.parse_template('./src/Templates/' + file, './student/' + file + '.py')
+    data = input.load_input()
+    return len([k for k in data['input'].keys() if '@' not in k])
+
+
+def compile_code():
+    """
+        Compiles the student code
+        Provides feedback if there is any compilation error
+    """
+    pyc_cmd = "python3 ../course/common/compiler.py "
+
+    with open('log.out', 'w+', encoding="utf-8") as f:
+        subprocess.call(shlex.split(pyc_cmd + './student/'), universal_newlines=True, stderr=f)
+        f.seek(0)
+        out_student = f.read()
+
+    if out_student != "":
+        rawhtml = rst.get_codeblock("", out_student)
+        feedback.set_global_result('failed')
+        feedback.set_global_feedback(_("Your program does not compile: \n ") + rawhtml + "\n")
+        sys.exit(0)
+
+
+def run():
+    with open('err.txt', 'w+', encoding="utf-8") as f:
+        os.chdir('./student')
+        py_cmd = "run_student python3 "
+        resproc = subprocess.Popen(shlex.split(py_cmd) + ['main.pyc'], universal_newlines=True, stdout=f)
+        resproc.communicate()
+        f.flush()
+        f.seek(0)
+        feedback.set_global_result('success')
+        feed = rst.get_codeblock("python", _("Your program prints:\n\n%s\n") % (f.read()))
+        feedback.set_global_feedback(feed)
+
+
+if __name__ == '__main__':
+    init_translations()
+    compute_code()
+    compile_code()
+    run()

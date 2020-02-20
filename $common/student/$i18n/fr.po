@@ -1,0 +1,1392 @@
+# French translations for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-01-29 14:46+0100\n"
+"PO-Revision-Date: 2018-02-07 15:15+0100\n"
+"Last-Translator: \n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"X-Generator: Poedit 2.0.3\n"
+
+#. name
+#: course.yaml
+msgid "[LSINF1101-PYTHON] Introduction to programming"
+msgstr "[LSINF1101-PYTHON] Introduction à la programmation"
+
+#: Average/run:49 Diff_count/run:49 FizzBuzz/run:49 GCD/run:49 GD/run:49
+#: Interests/run:49 Interval/run:49 Max/run:49 Median/run:49 Min/run:49
+#: Primes/run:49 Remainder/run:49 Sort/run:49
+msgid "Votre programme ne compile pas: \n"
+" "
+msgstr "Votre programme ne compile pas: "
+
+#: Average/run:60 Diff_count/run:60 FizzBuzz/run:60 GCD/run:60 GD/run:60
+#: Interests/run:60 Interval/run:60 Max/run:60 Median/run:60 Min/run:60
+#: Primes/run:60 Remainder/run:60 Sort/run:60
+msgid "Le programme ne compile pas pour des raisons externes, veuillez contacter un administrateur au plus vite: \n"
+" "
+msgstr "Le programme ne compile pas pour des raisons externes, veuillez contacter un administrateur au plus vite: \n"
+" "
+
+#: Average/run:88 Diff_count/run:88 FizzBuzz/run:88 GCD/run:88 GD/run:88
+#: Interests/run:88 Interval/run:88 Max/run:88 Median/run:88 Min/run:88
+#: Primes/run:88 Remainder/run:88 Sort/run:88
+msgid "La limite de mémoire de votre programme est dépassée"
+msgstr "La limite de mémoire de votre programme est dépassée"
+
+#: Average/run:91 Diff_count/run:91 FizzBuzz/run:91 GCD/run:91 GD/run:91
+#: Interests/run:91 Interval/run:91 Max/run:91 Median/run:91 Min/run:91
+#: Primes/run:91 Remainder/run:91 Sort/run:91
+msgid "La limite de temps d'exécution de votre programme est dépassée"
+msgstr "La limite de temps d'exécution de votre programme est dépassée"
+
+#: Average/run:95 Average/run:104 Diff_count/run:95 Diff_count/run:104
+#: FizzBuzz/run:95 FizzBuzz/run:104 GCD/run:95 GCD/run:104 GD/run:95 GD/run:104
+#: Interests/run:95 Interests/run:104 Interval/run:95 Interval/run:104
+#: Max/run:95 Max/run:104 Median/run:95 Median/run:104 Min/run:95 Min/run:104
+#: Primes/run:95 Primes/run:104 Remainder/run:95 Remainder/run:104 Sort/run:95
+#: Sort/run:104
+msgid "Il semble que vous ayiez fait des erreurs dans votre code…\n"
+"\n"
+msgstr "Il semble que vous ayiez fait des erreurs dans votre code…\n"
+"\n"
+
+#: Average/run:101 Diff_count/run:101 FizzBuzz/run:101 GCD/run:101 GD/run:101
+#: Interests/run:101 Interval/run:101 Max/run:101 Median/run:101 Min/run:101
+#: Primes/run:101 Remainder/run:101 Sort/run:101
+msgid "Vous avez bien répondu à cette question"
+msgstr "Vous avez bien répondu à cette question"
+
+#. author
+#: Average/task.yaml Diff_count/task.yaml FizzBuzz/task.yaml GCD/task.yaml
+#: GD/task.yaml Interests/task.yaml Interval/task.yaml Max/task.yaml
+#: Median/task.yaml Min/task.yaml Primes/task.yaml Quetelet/task.yaml
+#: Remainder/task.yaml SessTest_QCM/task.yaml Sort/task.yaml
+msgid "Tanguy De Bels"
+msgstr "Tanguy De Bels"
+
+#. context
+#: Average/task.yaml
+msgid "The method ``average(list)`` returns the arithmetic mean of the elements contained in list, except if ``list`` is empty in which case it should return ``False``."
+msgstr "La méthode ``average(list)`` renvoie la moyenne arithmétique des éléments contenus dans list, sauf si ``list`` est vide auquel cas elle devra retourner ``False``."
+
+#. name
+#: Average/task.yaml
+msgid "Session 5: Average"
+msgstr "Session 5: Moyenne"
+
+#. name, q1, name
+#: Average/task.yaml Diff_count/task.yaml FizzBuzz/task.yaml GCD/task.yaml
+#: GD/task.yaml Interests/task.yaml Interval/task.yaml Max/task.yaml
+#: Median/task.yaml Min/task.yaml Primes/task.yaml Quetelet/task.yaml
+#: Remainder/task.yaml Sort/task.yaml
+msgid "Implementation"
+msgstr "Implémentation"
+
+#. name, q1, header
+#: Average/task.yaml
+msgid "Provide the body of the following method:\n"
+"\n"
+".. code-block:: python\n"
+"\n"
+"    def average(list):"
+msgstr "Fournissez le corps de la méthode suivante:\n"
+"\n"
+".. code-block:: python\n"
+"\n"
+"    def average(list):"
+
+#: Average/src/TestAverage.py:14
+msgid "The average of {} is {} and you returned {}."
+msgstr "La moyenne  de {} est {} et vous avez retourné {}."
+
+#: Average/src/TestAverage.py:22 Max/src/TestMax.py:25
+msgid "When the list is empty you should return {}."
+msgstr "Lorsque la liste est vide, vous devez retourner {}."
+
+#. context
+#: Diff_count/task.yaml
+msgid "The method ``count_diff(lst)`` returns the number of different elements contained in the list lst.\n"
+"\n"
+"\n"
+"*For example:*\n"
+"\n"
+"- If ``lst`` equals ``[3, 5, 3]`` then the method should return 2.\n"
+"\n"
+"- If all the elements are the same, if should return 1.\n"
+"\n"
+"- If the list ``lst`` is empty, it should return 0."
+msgstr "La méthode `` count_diff (lst) `` renvoie le nombre d'éléments différents contenus dans la liste lst. \n"
+"\n"
+"\n"
+" Par exemple: \n"
+"\n"
+"- Si `` lst`` est égal à `` [3, 5, 3] `` alors la méthode devrait retourner 2.\n"
+"\n"
+" - Si tous les éléments sont identiques, elle devrait retourner 1. \n"
+"\n"
+"- Si la liste ` `lst`` est vide, elle devrait retourner 0."
+
+#. name
+#: Diff_count/task.yaml
+msgid "Session 5: Difference counter"
+msgstr "Session 5: Compteur de différences"
+
+#. name, q1, header
+#: Diff_count/task.yaml
+msgid "Provide the body of the following method:\n"
+"\n"
+".. code-block:: python\n"
+"\n"
+"    def diff_count(lst):"
+msgstr "Fournissez le corps de la méthode suivante: \n"
+"\n"
+".. code-block :: python \n"
+"\n"
+"    def diff_count (lst):"
+
+#: Diff_count/src/TestCount.py:15
+msgid "The number of different elements of {} is {} and you returned {}."
+msgstr "Le nombre d'éléments différents de {} est {} et vous avez renvoyé {}."
+
+#. context
+#: FizzBuzz/task.yaml
+msgid "Write a program allowing to play the game `fizzbuzz <https://en.wikipedia.org/wiki/Fizz_buzz>`_.\n"
+"You receive a number (stored in variable ``i``).\n"
+"We will implemente a simplified version of the game. For the integer ``i``, the game will :\n"
+"\n"
+"- Store the string \"``fizz``\" in the variable ``temp`` if the number is divisible by  3.\n"
+"- Store the string \"``buzz``\" in the variable ``temp`` if the number is divisible by 5.\n"
+"- Store the string \"``fizzbuzz``\" in the variable ``temp`` if the number is divisible by 3 and by 5.\n"
+"- Store the string \"``no``\" in the variable ``temp`` if the number is not divisible by 3 nor by 5.\n"
+"\n"
+".. code-block:: python\n"
+"\n"
+"    i = # number to check (i >= 1)\n"
+"    temp = \"\" # fizz, buzz, fizzbuzz, no"
+msgstr "Ecrivez un programme permettant de jouer au jeu `fizzbuzz <https://fr.wikipedia.org/wiki/Fizz_buzz>`_.\n"
+"Vous recevez un nombre (stocké dans la variable ``i``).\n"
+"Nous allons implémenter une version simplifiée du jeu. Pour l'entier ``i``, le jeu va :\n"
+"\n"
+"- Stocker le string \"``fizz``\" dans la variable ``temp`` si le nombre est divisible par 3.\n"
+"- Stocker le string \"``buzz``\" dans la variable ``temp`` si le nombre est divisible par 5.\n"
+"- Stocker le string \"``fizzbuzz``\" dans la variable ``temp`` si le nombre est divisible par 3 et par 5.\n"
+"- Stocker le string \"``no``\" dans la variable ``temp`` si le nombre n'est divisible ni par 3 ni par 5.\n"
+"\n"
+".. code-block:: python\n"
+"\n"
+"    i = # number to check (i >= 1)\n"
+"    temp = \"\" # fizz, buzz, fizzbuzz, no"
+
+#. name
+#: FizzBuzz/task.yaml
+msgid "Mission 2: FizzBuzz"
+msgstr "Session 2: FizzBuzz"
+
+#. name, q1, header
+#: FizzBuzz/task.yaml
+msgid "``i`` is provided and you need to store the adequate return value in ``temp``"
+msgstr "``i``est fourni et vous devez stocker la valeur de retour appropriée dans ``temp``"
+
+#: FizzBuzz/src/TestFizzBuzz.py:15 FizzBuzz/src/TestFizzBuzz.py:23
+msgid "With {} as input the program should return {} and you returned {}."
+msgstr "Avec {} comme entrée, le programme doit retourner {} et vous avez retourné {}."
+
+#. context
+#: GCD/task.yaml
+msgid "The Greatest Common Divisor of two natural numbers ``a`` and ``b`` is the biggest natural number ``k`` such that the division of ``a`` and ``b`` by this natural ``k`` is an entire division.\n"
+"\n"
+"Euclid found a very simple recursive algorithm to find the GCD of two numbers:\n"
+"$$\\\\text{gcd}(a,0) = a$$\n"
+"$$\\\\text{gcd}(a,b) = \\\\text{gcd}(b,a\\\\%b)$$\n"
+"\n"
+"Recall that the operator ``%`` returns the remainder of the euclidian division."
+msgstr "Le plus grand commun diviseur de deux nombres naturels '' a'' et '' b'' est le plus grand nombre naturel '' k'' telle que la division de '' a'' et '' b'' par ce naturel '' k'' est une division entière.\n"
+"\n"
+"Euclide a trouvé un algorithme récursif très simple afin de trouver le PGCD de deux nombres : \n"
+"$$\\\\text{gcd}(a,0) = a $$\n"
+"\\\\text{gcd}(a,b) $$ = \\\\text{gcd}(b,a\\\\%b)$ $\n"
+"\n"
+"Souvenez-vous que l’opérateur '' %'' renvoie le reste de la division euclidienne."
+
+#. name
+#: GCD/task.yaml
+msgid "Session 3: Greatest common divisor"
+msgstr "Session 3: Plus grand commun diviseur"
+
+#. name, q1, header
+#: GCD/task.yaml
+msgid "Implement the function ``gcd(a,b)`` in Python."
+msgstr "Implémentez la fonction ``gcd(a,b)`` en Python."
+
+#: GCD/src/TestGcd.py:13 Max/src/TestMax.py:13 Primes/src/TestPrimes.py:13
+#: Quetelet/src/TestQuetelet.py:20
+msgid "You did not name the method as expected."
+msgstr "Vous n'avez pas nommé la méthode comme demandé."
+
+#: GCD/src/TestGcd.py:18
+msgid "Test zero - The greatest common divisor between {} and {} is {} and you returned {}."
+msgstr "Test zéro - Le plus grand diviseur commun entre {} et {} est {} et vous avez renvoyé {}."
+
+#: GCD/src/TestGcd.py:26
+msgid "The greatest common divisor between {} and {} is {} and you returned {}."
+msgstr "Le plus grand diviseur commun entre {} et {} est {} et vous avez renvoyé {}."
+
+#. context
+#: GD/task.yaml
+msgid "The Greatest Divisor of a number ``a`` is the biggest number ( except ``a`` itself) such that the division of ``a`` by this natural is an entire division.\n"
+"\n"
+"Since \\\\(0\\\\) is divisible by any natural this may cause some problems if you will look for the bigger one, so we expect you to return ``False``.\n"
+"\n"
+"Recall that the operator ``%`` returns the remainder of the Euclidian division."
+msgstr "Le plus grand diviseur d'un nombre ``a`` est le plus grand nombre ( à part ``a`` lui-même) tel que la division de ``a`` par ce nombre est une division entière.\n"
+"\n"
+"Puisque \\\\(0\\\\) est divisible par n'importe quel naturel, cela pourrait créer des problèmes si vous cherchez le plus grand possible, nous nous attendons donc à ce que vous renvoyez ``False``.\n"
+"\n"
+"Souvenez-vous que l'opérateur ``%`` renvoi le reste de la division Euclidienne."
+
+#. name
+#: GD/task.yaml
+msgid "Session 3: Greatest divisor"
+msgstr "Session 3: Plus grand diviseur"
+
+#. name, q1, header
+#: GD/task.yaml
+msgid "Provide the body of the following method:\n"
+"\n"
+".. code-block:: python\n"
+"\n"
+"    def greatest_divisor(a):"
+msgstr "Fournissez le corps de la méthode suivante:\n"
+"\n"
+".. code-block:: python\n"
+"\n"
+"    def greatest_divisor(a):"
+
+#: GD/src/TestGd.py:14
+msgid "The greatest divisor of {} is {} and you returned {}."
+msgstr "Le plus grand diviseur de {} est {} et vous avez renvoyé {}."
+
+#: GD/src/TestGd.py:21
+msgid "The expected answer for the greatest divisor of {} is {} and you returned {}."
+msgstr "La réponse attendue pour le plus grand diviseur de {} est {} et vous avez renvoyé {}."
+
+#. context
+#: Interests/task.yaml
+msgid "Suppose you now have ``base`` € on your savings account.\n"
+"\n"
+"If you leave it ``x`` years on that account at a fixed cummulative interest rate of ``y`` %, what will be the balance on your account after these ``x`` years?\n"
+"\n"
+"Return that amount."
+msgstr "Supposez que vous avez actuellement ``base`` € sur votre compte épargne.\n"
+"\n"
+"Si vous l'y laissez ``x`` années sur ce compte à un taux d'intérêts fixe de ``y`` %, quel sera le montant sur ce compte après ces ``x`` années?\n"
+"\n"
+"Retournez ce montant."
+
+#. name
+#: Interests/task.yaml
+msgid "Session 3: Interest calculation"
+msgstr "Session 3: Calcul d'intérêts"
+
+#. name, q1, header
+#: Interests/task.yaml
+msgid "Provide the body of the following method:\n"
+"\n"
+".. code-block:: python\n"
+"\n"
+"    def interests(base, y, x):"
+msgstr "Fournissez le corps de la méthode suivante:\n"
+"\n"
+".. code-block:: python\n"
+"\n"
+"    def interests(base, y, x):"
+
+#: Interests/src/TestInterests.py:16
+msgid "When calling interests(base, y, x) with base = {}€ , y = {}% and x = {} years you returned {} but the expected value was {}."
+msgstr "Quand vous appelez interests(base, y, x) avec base = {}€ , y = {}% and x = {} années vous renvoyé {} mais la valeur attendue était {}."
+
+#. context
+#: Interval/task.yaml
+msgid "Suppose the variables ``a``, ``b`` and ``x`` contain a natural number. Write a code fragment that would assign the boolean value ``True`` to the variable named ``interval`` if ``x`` belongs to ``[a, b]``. Assign it the value ``False`` otherwise."
+msgstr "En supposant que les variables ``a``, ``b`` et ``x`` contiennent un nombre naturel. Ecrivez un fragment de code qui va stocker la valeur booléenne ``True`` dans la variable nommée ``interval`` si ``x`` appartient à ``[a, b]``. Assignez-y la valeur ``False`` sinon."
+
+#. name
+#: Interval/task.yaml
+msgid "Session 2: Interval"
+msgstr "Session 2: Intervalle"
+
+#. name, q1, header
+#: Interval/task.yaml
+msgid ".. code-block:: python\n"
+"\n"
+"    a = ... #lower bound of the interval\n"
+"    b = ... #upper bound of the interval\n"
+"    x = ... #variable to evaluate\n"
+"    interval = ... #store in this variable the belonging of x in the interval\n"
+msgstr ".. code-block:: python\n"
+"\n"
+"    a = ... #borne inférieure de l'intervalle\n"
+"    b = ... # borne supérieure de l'intervalle\n"
+"    x = ... #variable à évaluer\n"
+"    interval = ... #stockez dans cette variable l'appartenance de x à l'intervalle\n"
+
+#: Interval/src/TestInterval.py:17 Interval/src/TestInterval.py:25
+msgid "The belonging of {} to [{}, {}] is {} and you returned {}."
+msgstr "L'appartenance de {} à [{}, {}] est {} et vous avez retourné {}."
+
+#. context
+#: Max/task.yaml
+msgid "The method ``maximum(lst)`` returns the maximum of the elements contained in the list ``lst``.\n"
+"\n"
+"The value ``False`` is returned if the list ``lst`` is empty."
+msgstr "La méthode ``maximum(lst)`` renvoit le maximum des éléments contenus dans la liste ``lst``.\n"
+"\n"
+"La valeur ``False`` est renvoyée si la liste``lst`` est vide."
+
+#. name
+#: Max/task.yaml
+msgid "Session 5: Maximum"
+msgstr "Session 5: Maximum"
+
+#. name, q1, header
+#: Max/task.yaml
+msgid "Implement the function ``maximum(lst)`` in Python."
+msgstr "Implémentez la fonction ``maximum(lst)`` en Python."
+
+#: Max/src/TestMax.py:17
+msgid "The maximum of {} is {} and you returned {}."
+msgstr "Le maximum de {} est {} et vous avez renvoyé {}."
+
+#. context
+#: Median/task.yaml
+msgid "Suppose the variables ``a``, ``b`` and ``c`` contain a natural number.\n"
+"\n"
+"Write a code fragment that assigns to the variable ``median`` the median value of these numbers.\n"
+"\n"
+"As a reminder, the median of three values is the value such that there is exactly one value lower than (or equal to) it and one value higher than (or equal to) it."
+msgstr "En supposant que les variables ``a``, ``b`` et ``c`` contiennent un nombre naturel.\n"
+"\n"
+"Ecrivez un fragment de code qui assigne à la variable ``median`` la valeur médiane de ces nombres.\n"
+"\n"
+"Petit rappel: la médiane de 3 valeurs est la valeur tel qu'il y a une valeur plus grande (ou égale) et une valeur plus petite (ou égale) à celle-ci."
+
+#. name
+#: Median/task.yaml
+msgid "Session 2: Median"
+msgstr "Session 2: Médiane"
+
+#. name, q1, header
+#: Median/task.yaml
+msgid ".. code-block:: python\n"
+"\n"
+"    a = ... #variable to evaluate\n"
+"    b = ... #variable to evaluate\n"
+"    c = ... #variable to evaluate\n"
+"    median = ... #store in this variable the median of the three variables"
+msgstr ".. code-block:: python\n"
+"\n"
+"    a = ... #variable à évaluer\n"
+"    b = ... #variable à évaluer\n"
+"    c = ... #variable à évaluer\n"
+"    median = ... #stockez dans cette variable la médiane de ces trois variables"
+
+#: Median/src/TestMedian.py:17
+msgid "The median of {} is {} and you returned {}."
+msgstr "La médiane de {} est {} et vous avez renvoyé {}."
+
+#. context
+#: Min/task.yaml
+msgid "Suppose the variables ``a``, ``b`` and ``c`` contain a natural number.\n"
+"\n"
+"Write a code fragment that assigns to the variable ``min`` the smallest of these numbers."
+msgstr "En supposant que les variables ``a``, ``b`` et ``c`` contiennent un nombre naturel.\n"
+"\n"
+"Ecrivez un fragment de code qui assigne à la variable ``min`` le plus petit de ces nombres."
+
+#. name
+#: Min/task.yaml
+msgid "Session 2: Minimum"
+msgstr "Session 2: Minimum"
+
+#. name, q1, header
+#: Min/task.yaml
+msgid ".. code-block:: python\n"
+"\n"
+"    a = ... #variable to evaluate\n"
+"    b = ... #variable to evaluate\n"
+"    c = ... #variable to evaluate\n"
+"    min = ... #store in this variable the smallest of the three variables"
+msgstr ".. code-block:: python\n"
+"\n"
+"    a = ... #variable à évaluer\n"
+"    b = ... #variable à évaluer\n"
+"    c = ... #variable à évaluer\n"
+"    min = ... #stockez dans cette variable la plus petite de ces 3 variables"
+
+#: Min/src/TestMin.py:17
+msgid "The minimum of {} is {} and you returned {}."
+msgstr "Le minimum de {} est {} et vous avez renvoyé {}."
+
+#. context
+#: Primes/task.yaml
+msgid "`The prime numbers <https://en.wikipedia.org/wiki/Prime_number>`_ , used by mathematicians, are a set of numbers sharing a same property.\n"
+"\n"
+"A prime is a natural number greater than 1 that has no positive divisors other than 1 and itself. A natural number greater than 1 that is not a prime number is called a composite number.\n"
+"\n"
+"To calculate prime numbers you can use the principle of Eratosthene's sieve: for each successive number, check if it is divisible by the lower prime numbers already found. If it is not divisible by any, it is prime and can be added to the list.\n"
+"\n"
+"Implement the function primes(max) that returns the list of all prime numbers until max.\n"
+"If max is negative or zero, the empty list should be returned.\n"
+"\n"
+"To limit the complexity of your solution, decompose into auxiliary functions as needed."
+msgstr "`Les nombres premiers <https://fr.wikipedia.org/wiki/Nombre_premier>`_ , utilisés par les mathématiciens, sont un ensemble de nombres partageant une même propriété.\n"
+"\n"
+"Un nombre premier est un naturel plus grand que 1 qui n'a pas d'autre diviseur positif que 1 et lui-même. Un nombre naturel plus grand que 1 qui n'est pas un nombre premier est appelé un nombre composé.\n"
+"\n"
+"Pour calculer des nombres premiers, vous pouvez utilisez le principe du crible d'Eratosthène: pour chaque nombre successif, vérifiez s'il est divisible par les nombres premiers déjà trouvés. Si ce n'est pas le cas, c'est un nombre premier et il peut être ajouté à la liste.\n"
+"\n"
+"Implémentez la fonction primes(max) qui renvoi la liste de tous les nombres premiers jusqu'à max.\n"
+"Si max est négatif ou zéro, une liste vide devrait être renvoyé.\n"
+"\n"
+"Pour limiter la complexité de votre solution, décomposez la résolution du problème en autant de fonction auxiliaires que nécessaires."
+
+#. name
+#: Primes/task.yaml
+msgid "Session 5: Prime numbers"
+msgstr "Session 5: Nombres premiers"
+
+#. name, q1, header
+#: Primes/task.yaml
+msgid "Implement the function ``primes(max)`` in Python."
+msgstr "Implémentez la fonction ``primes(max)`` en Python."
+
+#: Primes/src/TestPrimes.py:17
+msgid "The prime numbers with a maximum value of {} is {} and you returned {}."
+msgstr "La liste des nombres premiers pour une valeur maximale {} est {} et vous avez renvoyé {}."
+
+#: Primes/src/TestPrimes.py:25 Primes/src/TestPrimes.py:33
+msgid "The prime numbers with a maximum value of {} is {} and you returned {}. \n"
+" You should check the conditions to be a prime number."
+msgstr "La liste des nombres premiers pour une valeur maximale {} est {} et vous avez renvoyé {}. \n"
+"Vous devriez vérifier les conditions pour qu'un nombre puisse être premier."
+
+#: Quetelet/run:65
+msgid "Your program does not compile: \n"
+" "
+msgstr "Votre programme ne compile pas: "
+
+#: Quetelet/run:76
+msgid "The program does not compile for external reasons,please contact an administrator asap: \n"
+" "
+msgstr "Le programme ne compile pas pour des raisons externes, veuillez contacter un administrateur au plus vite: "
+
+#: Quetelet/run:105
+msgid "The memory limit of your program is exceeded"
+msgstr "La limite de mémoire de votre programme est dépassée"
+
+#: Quetelet/run:108
+msgid "The time limit of your program is exceeded"
+msgstr "La limite de temps d'exécution de votre programme est dépassée"
+
+#: Quetelet/run:112 Quetelet/run:121
+msgid "It seems that you have made mistakes in your code…\n"
+"\n"
+msgstr "Il semble que vous ayiez fait des erreurs dans votre code…\n"
+"\n"
+
+#: Quetelet/run:118
+msgid "You asnwered well this question"
+msgstr "Vous avez bien répondu à cette question"
+
+#. context
+#: Quetelet/task.yaml
+msgid "The `Body mass index (BMI) <https://en.wikipedia.org/wiki/Body_mass_index>`_ or Quetelet index, used by dieticians, is indicative of the condition of a person.\n"
+"\n"
+"A normal person should have an index between 20 and 25. Below 20, she is considered thin, above 25 overweight.\n"
+"Beyond 30, the person is obese!\n"
+"\n"
+"This index is calculated as the ratio between a person's weight, expressed in kg, and the square of the person's height, expressed in meters.\n"
+"\n"
+"Create a function ``quetelet(height, weight)`` to calculate a person's Quetelet index and return ``thin`` string for a person with an index strictly less than 20, ``normal`` for a person whose index is between 20 and 25, ``overweight`` if the index is strictly greater than 25 and less than or equal to 30 and ``obese`` when it is strictly greater than 30."
+msgstr "L'`indice de masse corporel (BMI) <https://fr.wikipedia.org/wiki/Indice_de_masse_corporelle>`_ ou indice de Quetelet, utilisés par les diététiciens, est une indication de la condition d'une personne.\n"
+"\n"
+"Une personne normale devrait avoir un indice entre 20 et 25. En dessous de 20, elle est considérée maigre, au dessus de 25 en surpoids.\n"
+"Au delà de 30, la personne est obèse!\n"
+"\n"
+"Cet indice est calculé comme le ratio du poids d'une personne (exprimé en kg) et le carré de la taille d'une personne (exprimée en mètres).\n"
+"\n"
+"Créer une fonction ``quetelet(height, weight)`` pour calculer l'indice de Quetelet d'une personne et retournez le string ``thin`` pour une personne avec un index strictement plus petit que 20, ``normal`` pour une personne dont l'index est entre 20 et 25, ``overweight`` si l'index est strictement plus grand que 25 et plus petit ou égal à 30 et ``obese`` quand il est strictement plus grand que 30."
+
+#. name
+#: Quetelet/task.yaml
+msgid "Session 3: BMI index"
+msgstr "Session 3: Indice BMI"
+
+#. name, q1, header
+#: Quetelet/task.yaml
+msgid "Implement the function ``quetelet(height, weight)`` in Python."
+msgstr "Implémentez la fonction ``quetelet(height, weight)`` en Python."
+
+#: Quetelet/src/TestQuetelet.py:25
+msgid "The quetelet index with a height of {} and a weight of {} is {} and you returned {}. \n"
+" You should watch the bounds of your conditions."
+msgstr "L'indice de Quetelet avec une taille de {} et un poids de {} est {} et vous renvoyé {}. \n"
+" Vous devriez vérifier les limites de vos conditions."
+
+#: Quetelet/src/TestQuetelet.py:34
+msgid "The quetelet index with a height of {} and a weight of {} is {} and you returned {}."
+msgstr "L'indice de Quetelet avec une taille de {} et un poids de {} est {} et vous renvoyé {}."
+
+#. context
+#: Remainder/task.yaml
+msgid "Suppose the variables ``a`` and ``b`` contain a natural number.\n"
+"\n"
+"Write a code fragment that assigns the remainder of their division in the variable ``rest``.\n"
+"\n"
+"To implement your solution, use only a ``while`` loop and subtractions (the simple solution rest = a % b is not allowed; we want to test if you are capable of implementing such an operation yourself).\n"
+"\n"
+"Note that you should not allow division by 0 and assign the value ``False`` to ``rest`` if this would occur."
+msgstr "En supposant que les variables ``a`` et ``b`` contiennent un nombre naturel.\n"
+"\n"
+"Ecrivez un fragment de code qui assigne le reste de leur division à la variable ``rest``.\n"
+"\n"
+"pour implémenter votre solution, utilisez seulement une boucle ``while`` et des soustractions (la simple solution: rest = a % b n'est pas autorisée; nous voulons tester si vous êtes capable d'implémenter une telle opération vous-même).\n"
+"\n"
+"Prêtez attention au fait que vous ne devriez pas autoriser la division par 0 et assignez la valeur ``False`` à ``rest`` si le cas se produit."
+
+#. name
+#: Remainder/task.yaml
+msgid "Session 2: Remainder of an integer division"
+msgstr "Session 2: Reste d'une division entière"
+
+#. name, q1, header
+#: Remainder/task.yaml
+msgid ".. code-block:: python\n"
+"\n"
+"    a = ... #variable to evaluate\n"
+"    b = ... #variable to evaluate\n"
+"    rest = ... #store in this variable the remainder of the division a/b"
+msgstr ".. code-block:: python\n"
+"\n"
+"    a = ... #variable à évaluer\n"
+"    b = ... #variable à évaluer\n"
+"    rest = ... #stockez dans cette variable le reste de la division a/b"
+
+#: Remainder/src/TestRemainder.py:16 Remainder/src/TestRemainder.py:25
+#: Remainder/src/TestRemainder.py:34
+msgid "The remainder of the entire division {} / {} is {} and you returned {}."
+msgstr "Le reste de la division entière {} / {} est {} et vous avez renvoyé {}."
+
+#. name
+#: SessTest_QCM/task.yaml
+msgid "Session Test: QCM"
+msgstr "Session Test: QCM"
+
+#. name, qcm1, name
+#: SessTest_QCM/task.yaml
+msgid "Variables assignment"
+msgstr "Assignement de variables"
+
+#. name, qcm1, header
+#: SessTest_QCM/task.yaml
+msgid "Pick the piece of code which will print 42."
+msgstr "Choisissez le morceau de code qui va printer 42."
+
+#. name, qcm1, text
+#: SessTest_QCM/task.yaml
+msgid ".. code-block:: python\n"
+"\n"
+"    my var1 = 7\n"
+"    my var2 = 6\n"
+"    print(my var1 * my var2)"
+msgstr ".. code-block:: python\n"
+"\n"
+"    my var1 = 7\n"
+"    my var2 = 6\n"
+"    print(my var1 * my var2)"
+
+#. name, qcm1, feedback
+#: SessTest_QCM/task.yaml
+msgid "In Python space in variable's name is not supported.\n"
+"\n"
+"You can compensate with:\n"
+"\n"
+"-CamelCasing: myVar\n"
+"\n"
+"-Underscores: my_var (prefered by Python naming conventions)"
+msgstr "En Python les espaces dans les noms de variables ne sont pas supportés.\n"
+"\n"
+"Vous pouvez compensez avec:\n"
+"\n"
+"-CamelCasing: myVar\n"
+"\n"
+"-Underscores: my_var (préféré parles conventions de nommage de Python)"
+
+#. name, qcm1, text
+#: SessTest_QCM/task.yaml
+msgid ".. code-block:: python\n"
+"\n"
+"    myVar1 = 35\n"
+"    myvar2 = 7\n"
+"    print(myvar1 + myVar2)"
+msgstr ".. code-block:: python\n"
+"\n"
+"    myVar1 = 35\n"
+"    myvar2 = 7\n"
+"    print(myvar1 + myVar2)"
+
+#. name, qcm1, feedback
+#: SessTest_QCM/task.yaml
+msgid "You should pay attention to the name of your variable since Python is case sensible."
+msgstr "Vous devriez prêter attention au nom de votre variable puisque Python est sensible à la casse."
+
+#. name, qcm1, text
+#: SessTest_QCM/task.yaml
+msgid ".. code-block:: python\n"
+"\n"
+"    myVar1 = '4'\n"
+"    myvar2 = '2'\n"
+"    print(myVar1 + myvar2)"
+msgstr ".. code-block:: python\n"
+"\n"
+"    myVar1 = '4'\n"
+"    myvar2 = '2'\n"
+"    print(myVar1 + myvar2)"
+
+#. name, qcm2, name
+#. name, qcm3, name
+#: SessTest_QCM/task.yaml
+msgid "While loops"
+msgstr "Boucles while"
+
+#. name, qcm2, header
+#: SessTest_QCM/task.yaml
+msgid "Which of the following code fragments calculates the sum of the first ``n`` positive integers?"
+msgstr "Lequel des fragments de code suivants calcule la somme des ``n`` premiers entiers positifs?"
+
+#. name, qcm2, text
+#: SessTest_QCM/task.yaml
+msgid ".. code-block:: python\n"
+"\n"
+"    i = 0\n"
+"    sum = 0\n"
+"    while i < n:\n"
+"        sum = sum+i\n"
+"        i+=1"
+msgstr ".. code-block:: python\n"
+"\n"
+"    i = 0\n"
+"    sum = 0\n"
+"    while i < n:\n"
+"        sum = sum+i\n"
+"        i+=1"
+
+#. name, qcm2, feedback
+#: SessTest_QCM/task.yaml
+msgid "The correct answer is not attained. Did you not forget an iteration?"
+msgstr "La bonne réponse n'est pas atteinte. N'avez-vous pas oublié une itération?"
+
+#. name, qcm2, text
+#: SessTest_QCM/task.yaml
+msgid ".. code-block:: python\n"
+"\n"
+"    i = n\n"
+"    sum = 0\n"
+"    while i <= n:\n"
+"        sum = sum+i\n"
+"        i-=1"
+msgstr ".. code-block:: python\n"
+"\n"
+"    i = n\n"
+"    sum = 0\n"
+"    while i <= n:\n"
+"        sum = sum+i\n"
+"        i-=1"
+
+#. name, qcm2, feedback
+#: SessTest_QCM/task.yaml
+msgid "Your loop will never end. Check your condition."
+msgstr "Votre boucle ne finira jamais. Surveillez votre condition."
+
+#. name, qcm2, text
+#: SessTest_QCM/task.yaml
+msgid ".. code-block:: python\n"
+"\n"
+"        i = 1\n"
+"        sum = 0\n"
+"    while i < n:\n"
+"        sum = sum+i\n"
+"        i+=1"
+msgstr ".. code-block:: python\n"
+"\n"
+"        i = 1\n"
+"        sum = 0\n"
+"    while i < n:\n"
+"        sum = sum+i\n"
+"        i+=1"
+
+#. name, qcm2, feedback
+#: SessTest_QCM/task.yaml
+msgid "The indentation is an extremelly important part of coding in Python since it allows to know in which block the statement is executed. Are ``i`` and ``sum`` supposed to be assigned in a block before the loop?"
+msgstr "L'indentation est un élément très important du codage en python puisque cela permet de savoir dans quel bloc une instruction s'exécute. ``i`` et ``sum`` sont-ils supposés être assignés dans le bloc avant la boucle?"
+
+#. name, qcm2, text
+#: SessTest_QCM/task.yaml
+msgid ".. code-block:: python\n"
+"\n"
+"    i = 1\n"
+"    sum = 0\n"
+"    while i <= n:\n"
+"        sum = sum+i\n"
+"        i+=1"
+msgstr ".. code-block:: python\n"
+"\n"
+"    i = 1\n"
+"    sum = 0\n"
+"    while i <= n:\n"
+"        sum = sum+i\n"
+"        i+=1"
+
+#. name, qcm3, header
+#: SessTest_QCM/task.yaml
+msgid "``While`` loops are useful when we need to repear similar tasks multiple times. In arithmetic, the factorial of a positive integer (``n``) and greater than `1` is defined as the product of all integers less than or equal to ``n``. The factorial of ``n`` is :math:`n!`. Thus :math:`4! = 24`. Among the ``while`` loops below, which calculates correctly :math:`n!` ?"
+msgstr "Les boucles ``while`` sont utiles quand on a besoin de répéter une tâche similaires plusieurs fois. En arithmétique, la factorielle d'un entier positif (``n``) plus grand que `1` est définie comme le produit de tous les entiers plus petits ou égaux à ``n``. La factorielle de ``n`` est :math:`n!`. Et donc :math:`4! = 24`. Au sein des boucles ``while`` ci-dessous, laquelle calcule correctement :math:`n!` ?"
+
+#. name, qcm3, text
+#: SessTest_QCM/task.yaml
+msgid ".. code-block:: python\n"
+"\n"
+"    n = 7\n"
+"    fact = n\n"
+"    count = n-1\n"
+"    while count > 0:\n"
+"        fact = fact * count\n"
+"        count+=1"
+msgstr ".. code-block:: python\n"
+"\n"
+"    n = 7\n"
+"    fact = n\n"
+"    count = n-1\n"
+"    while count > 0:\n"
+"        fact = fact * count\n"
+"        count+=1"
+
+#. name, qcm3, feedback
+#: SessTest_QCM/task.yaml
+msgid "Will your loop stop in other case than `1`?"
+msgstr "Votre boucle va-t-elle s'arrêter dans d'autres cas que `1`?"
+
+#. name, qcm3, text
+#: SessTest_QCM/task.yaml
+msgid ".. code-block:: python\n"
+"\n"
+"    n = 7\n"
+"    fact = 1\n"
+"    count = 2\n"
+"    while count < n:\n"
+"        fact = fact * count\n"
+"        count+=1"
+msgstr ".. code-block:: python\n"
+"\n"
+"    n = 7\n"
+"    fact = 1\n"
+"    count = 2\n"
+"    while count < n:\n"
+"        fact = fact * count\n"
+"        count+=1"
+
+#. name, qcm3, feedback
+#: SessTest_QCM/task.yaml
+msgid "Pretty sure you calculated the factorial of `n-1` ."
+msgstr "Assez-sûre que vous venez de calculer la factoriel de `n-1` ."
+
+#. name, qcm3, text
+#: SessTest_QCM/task.yaml
+msgid ".. code-block:: python\n"
+"\n"
+"    n = 7\n"
+"    fact = 1\n"
+"    count = n\n"
+"    while count >= 2:\n"
+"        fact = fact * count\n"
+"        count-=1"
+msgstr ".. code-block:: python\n"
+"\n"
+"    n = 7\n"
+"    fact = 1\n"
+"    count = n\n"
+"    while count >= 2:\n"
+"        fact = fact * count\n"
+"        count-=1"
+
+#. name, qcm4, name
+#: SessTest_QCM/task.yaml
+msgid "Python syntax"
+msgstr "Syntaxe de Python"
+
+#. name, qcm4, header
+#: SessTest_QCM/task.yaml
+msgid "Which of the following program fragments do respect the syntax of the language?"
+msgstr "Lesquels de ces fragments de code suivants respectent la syntaxe du langage?"
+
+#. name, qcm4, text
+#: SessTest_QCM/task.yaml
+msgid ".. code-block:: python\n"
+"\n"
+"    >>> x = 4\n"
+"    >>> y = 'test'\n"
+"    >>> z = 8\n"
+"    >>>     print(x)\n"
+msgstr ".. code-block:: python\n"
+"\n"
+"    >>> x = 4\n"
+"    >>> y = 'test'\n"
+"    >>> z = 8\n"
+"    >>>     print(x)\n"
+
+#. name, qcm4, feedback
+#: SessTest_QCM/task.yaml
+msgid "The indentation is an extremelly important part of coding in Python since it allows to know in which block the statement is executed. In this case your program will meet an unexpected indentation."
+msgstr "L'indentation est un élément important du codage en python puisqu'il permet de savoir dans quel bloc une instruction est exécutée. Dans ce cas le programme va trouver un indentation inattendue."
+
+#. name, qcm4, text
+#: SessTest_QCM/task.yaml
+msgid ".. code-block:: python\n"
+"\n"
+"    >>> x = 4\n"
+"    >>> x = 'test'\n"
+"    >>> z = 8\n"
+"    >>> print(x)\n"
+"    4"
+msgstr ".. code-block:: python\n"
+"\n"
+"    >>> x = 4\n"
+"    >>> x = 'test'\n"
+"    >>> z = 8\n"
+"    >>> print(x)\n"
+"    4"
+
+#. name, qcm4, feedback
+#: SessTest_QCM/task.yaml
+msgid "Since there is no type in Python a variable can contain as well an integer as text.\n"
+"\n"
+"test would be print with this code fragment."
+msgstr "Puisqu'il n'y a pas de types en Python, une variable peut contenir aussi bien un integer que du texte\n"
+"\n"
+"test sera imprimé avec ce fragment de code."
+
+#. name, qcm4, text
+#: SessTest_QCM/task.yaml
+msgid ".. code-block:: python\n"
+"\n"
+"    >>> x = 4\n"
+"    >>> y = 'test'\n"
+"    >>> z = 8\n"
+"    >>> print(x)\n"
+"    4"
+msgstr ".. code-block:: python\n"
+"\n"
+"    >>> x = 4\n"
+"    >>> y = 'test'\n"
+"    >>> z = 8\n"
+"    >>> print(x)\n"
+"    4"
+
+#. name, qcm5, name
+#: SessTest_QCM/task.yaml
+msgid "Comments in Python"
+msgstr "Commentaires en Python"
+
+#. name, qcm5, header
+#: SessTest_QCM/task.yaml
+msgid "Check the snippets which contain a valid comment."
+msgstr "Validez la case contenant le bon commentaire."
+
+#. name, qcm5, text
+#: SessTest_QCM/task.yaml
+msgid ".. code-block:: python\n"
+"\n"
+"    for i in range(0,5):\n"
+"        print(\"#This is a comment\")"
+msgstr ".. code-block:: python\n"
+"\n"
+"    for i in range(0,5):\n"
+"        print(\"#This is a comment\")"
+
+#. name, qcm5, feedback
+#: SessTest_QCM/task.yaml
+msgid "The comment is enclosed in a string."
+msgstr "Le commentaire est inclus dans un string."
+
+#. name, qcm5, text
+#: SessTest_QCM/task.yaml
+msgid ".. code-block:: python\n"
+"\n"
+"    for i in range(0,5):\n"
+"        print(i) # This is a comment"
+msgstr ".. code-block:: python\n"
+"\n"
+"    for i in range(0,5):\n"
+"        print(i) # This is a comment"
+
+#. name, qcm5, text
+#: SessTest_QCM/task.yaml
+msgid ".. code-block:: python\n"
+"\n"
+"    \"\"\" This is a comment\"\"\"\n"
+"    for i in range(0,5):\n"
+"        print(i)"
+msgstr ".. code-block:: python\n"
+"\n"
+"    \"\"\" This is a comment\"\"\"\n"
+"    for i in range(0,5):\n"
+"        print(i)"
+
+#. name, qcm5, feedback
+#: SessTest_QCM/task.yaml
+msgid "It is correct BUT don't use triple-quotes; this is for documentation strings not block comments, although it has a similar effect it is best practice to use ``#``"
+msgstr "Cette réponse est correcte MAIS n'utilisez pas de triple guillemets; c'est réservé pour des strings de documentation et non des blocs de commentaires. Même si cela a le même effet, c'est une meilleur pratique d'utiliser ``#``"
+
+#. name, qcm6, name
+#: SessTest_QCM/task.yaml
+msgid "Python naming conventions"
+msgstr "Conventions de nommage Python"
+
+#. name, qcm6, header
+#: SessTest_QCM/task.yaml
+msgid "Which of the following statements are respecting the Python naming conventions?"
+msgstr "Lesquelles des instructions suivantes respectent les conventions de nommage Python?"
+
+#. name, qcm6, text
+#: SessTest_QCM/task.yaml
+msgid ".. code-block:: python\n"
+"\n"
+"    myVariable = 'This is lower camel case'"
+msgstr ".. code-block:: python\n"
+"\n"
+"    myVariable = 'This is lower camel case'"
+
+#. name, qcm6, feedback
+#: SessTest_QCM/task.yaml
+msgid "Snake case is usually prefered regarding variables names.\n"
+"\n"
+"Although lower camel case is allowed for functions names in Python (where that's already the prevailing style)."
+msgstr "Snake case est en général ce qui est préféré en ce qui concerne les noms de variables.\n"
+"\n"
+"Cependant lower camel case est autorisé pour les noms de fonctions en Python (quand c'est déjà le style qui prévaut)."
+
+#. name, qcm6, text
+#: SessTest_QCM/task.yaml
+msgid ".. code-block:: python\n"
+"\n"
+"    my_variable = 'This is snake case'"
+msgstr ".. code-block:: python\n"
+"\n"
+"    my_variable = 'This is snake case'"
+
+#. name, qcm6, text
+#: SessTest_QCM/task.yaml
+msgid ".. code-block:: python\n"
+"\n"
+"    MY_VARIABLE = 'This is screaming snake case'"
+msgstr ".. code-block:: python\n"
+"\n"
+"    MY_VARIABLE = 'This is screaming snake case'"
+
+#. name, qcm6, feedback
+#: SessTest_QCM/task.yaml
+msgid "Snake case is usually prefered regarding variables names.\n"
+"\n"
+"Although screaming snake case is used for constant in Python."
+msgstr "Snake case est généralement préféré en ce qui concerne les noms de variables.\n"
+"\n"
+"Cependant screaming snake case est utilisé pour les constantes en Python."
+
+#. name, qcm6, text
+#: SessTest_QCM/task.yaml
+msgid ".. code-block:: python\n"
+"\n"
+"    MyVariable = 'This is upper camel case'"
+msgstr ".. code-block:: python\n"
+"\n"
+"    MyVariable = 'This is upper camel case'"
+
+#. name, qcm6, feedback
+#: SessTest_QCM/task.yaml
+msgid "Snake case is usually prefered regarding variables names.\n"
+"\n"
+"Although upper camel case is used for class names in Python."
+msgstr "Snake case est généralement préféré en ce qui concerne les noms de variables.\n"
+"\n"
+"Cependant upper camel case est utilisé pour les noms des classes en Python."
+
+#. name, qcm7, name
+#: SessTest_QCM/task.yaml
+msgid "Exchange variables values"
+msgstr "Echange de valeurs de variables"
+
+#. name, qcm7, header
+#: SessTest_QCM/task.yaml
+msgid "It is often useful to be able to exchange values between variables. Considerate the following variables:\n"
+"\n"
+".. code-block:: python\n"
+"\n"
+"    a = 42\n"
+"    b = 41\n"
+"\n"
+"Which of following fragments of code exchange the values correctly?"
+msgstr "Il est souvent pratique de pouvoir échanger les valeurs entre 2 variables. Considérez les variables suivantes:\n"
+"\n"
+".. code-block:: python\n"
+"\n"
+"    a = 42\n"
+"    b = 41\n"
+"\n"
+"Lequel des fragments de code suivants échange les valeurs correctement?"
+
+#. name, qcm7, text
+#: SessTest_QCM/task.yaml
+msgid ".. code-block:: python\n"
+"\n"
+"    b = a\n"
+"    a = b"
+msgstr ".. code-block:: python\n"
+"\n"
+"    b = a\n"
+"    a = b"
+
+#. name, qcm7, feedback
+#: SessTest_QCM/task.yaml
+msgid "By doing it this way you will lose the value contained in ``b`` and the value of ``a`` will be stored in the 2 variables."
+msgstr "En le faisant de cette façon, vous allez perdre la valeur contenue dans ``b`` et la valeur de ``a`` sera stockée dans 2 variables."
+
+#. name, qcm7, text
+#: SessTest_QCM/task.yaml
+msgid ".. code-block:: python\n"
+"\n"
+"    c = b\n"
+"    b = a\n"
+"    a = c"
+msgstr ".. code-block:: python\n"
+"\n"
+"    c = b\n"
+"    b = a\n"
+"    a = c"
+
+#. name, qcm7, feedback
+#: SessTest_QCM/task.yaml
+msgid "This would work but it is more efficient and clear to do it with this little trick:\n"
+"\n"
+".. code-block:: python\n"
+"\n"
+"    a,b = b,a"
+msgstr "Ce code fonctionnerait mais il est plus efficace et claire de le faire avec cette petite astuce:\n"
+"\n"
+".. code-block:: python\n"
+"\n"
+"    a,b = b,a"
+
+#. name, qcm7, text
+#: SessTest_QCM/task.yaml
+msgid ".. code-block:: python\n"
+"\n"
+"    a,b = b,a"
+msgstr ".. code-block:: python\n"
+"\n"
+"    a,b = b,a"
+
+#. name, qcm8, name
+#: SessTest_QCM/task.yaml
+msgid "Calculate min"
+msgstr "Calcul du minimum"
+
+#. name, qcm8, header
+#: SessTest_QCM/task.yaml
+msgid "Consider a program that manipulates two variables: ``a`` and ``b`` . Among the code fragments below, which correctly places in the variable ``min`` the minimum between the contents of ``a`` and ``b`` ?"
+msgstr "En considérant un programme qui manipule deux variables: ``a`` et ``b`` . Parmi les fragments de code ci-dessous, lequel place correctement dans la variable ``min`` le minimum des contenus de ``a`` et ``b`` ?"
+
+#. name, qcm8, text
+#: SessTest_QCM/task.yaml
+msgid ".. code-block:: python\n"
+"\n"
+"    if a > b:\n"
+"        min = a\n"
+"    else:\n"
+"        min = b\n"
+msgstr ".. code-block:: python\n"
+"\n"
+"    if a > b:\n"
+"        min = a\n"
+"    else:\n"
+"        min = b\n"
+
+#. name, qcm8, feedback
+#: SessTest_QCM/task.yaml
+msgid "The maximum is stored in min instead of the minimum with this code."
+msgstr "Le maximum est stocké dans min au lieu de minimum dans ce code."
+
+#. name, qcm8, text
+#: SessTest_QCM/task.yaml
+msgid ".. code-block:: python\n"
+"\n"
+"    if a > b:\n"
+"    min = a\n"
+"    else:\n"
+"    min = b\n"
+msgstr ".. code-block:: python\n"
+"\n"
+"    if a > b:\n"
+"    min = a\n"
+"    else:\n"
+"    min = b\n"
+
+#. name, qcm8, feedback
+#: SessTest_QCM/task.yaml
+msgid "The indentation is an extremelly important part of coding in Python since it allows to know in which block the statement is executed. What is executed in this case if the condition is verified?"
+msgstr "L'indentation est un élément extrêmement important du codage en Python puisque cela permet de savoir dans quel bloc une instruction doit s'exécuter. Qu'est-ce-qui s'exécutera dans ce cas-ci si la condition se vérifie?"
+
+#. name, qcm8, text
+#: SessTest_QCM/task.yaml
+msgid ".. code-block:: python\n"
+"\n"
+"    if a > b:\n"
+"        min = b\n"
+"    else:\n"
+"        min = a"
+msgstr ".. code-block:: python\n"
+"\n"
+"    if a > b:\n"
+"        min = b\n"
+"    else:\n"
+"        min = a"
+
+#. name, qcm9, name
+#: SessTest_QCM/task.yaml
+msgid "Absolute value"
+msgstr "Valeur absolue"
+
+#. name, qcm9, header
+#: SessTest_QCM/task.yaml
+msgid "Which of these code fragments places in the ``abs`` variable the absolute value of ``x`` ?"
+msgstr "Lequel de ces fragments de code place dans la variable ``abs`` la valeur absolue de ``x`` ?"
+
+#. name, qcm9, text
+#: SessTest_QCM/task.yaml
+msgid ".. code-block:: python\n"
+"\n"
+"    if x == 0:\n"
+"        abs = x\n"
+"    else:\n"
+"        abs = -x"
+msgstr ".. code-block:: python\n"
+"\n"
+"    if x == 0:\n"
+"        abs = x\n"
+"    else:\n"
+"        abs = -x"
+
+#. name, qcm9, feedback
+#: SessTest_QCM/task.yaml
+msgid "What happens if ``x`` is a positive integer?"
+msgstr "Que se passe-t-il si ``x`` est un entier positif?"
+
+#. name, qcm9, text
+#: SessTest_QCM/task.yaml
+msgid ".. code-block:: python\n"
+"\n"
+"    if x > 0:\n"
+"        abs = -x\n"
+"    else:\n"
+"        abs = x"
+msgstr ".. code-block:: python\n"
+"\n"
+"    if x > 0:\n"
+"        abs = -x\n"
+"    else:\n"
+"        abs = x"
+
+#. name, qcm9, feedback
+#: SessTest_QCM/task.yaml
+msgid "You should consider carefully the condition used to store `-x` in  ``abs`` ."
+msgstr "Vous devriez revérifier la condition pour stocker `-x` dans ``abs`` ."
+
+#. name, qcm9, text
+#: SessTest_QCM/task.yaml
+msgid ".. code-block:: python\n"
+"\n"
+"    if x < 0:\n"
+"        abs = -x\n"
+"    else:\n"
+"        abs = x"
+msgstr ".. code-block:: python\n"
+"\n"
+"    if x < 0:\n"
+"        abs = -x\n"
+"    else:\n"
+"        abs = x"
+
+#. name, qcm10, name
+#: SessTest_QCM/task.yaml
+msgid "Intervals"
+msgstr "Intervalles"
+
+#. name, qcm10, header
+#: SessTest_QCM/task.yaml
+msgid "In mathematics, we define intervals, closed, open and semi-open. The semi-open interval :math:`[3,7[` includes all real numbers that are greater than or equal to `3` and strictly less than 7. Which of the following code fragments display ``true`` on its standard output if and only if ``x`` belongs to the interval :math:`[a, b[` ? We assume for this question that the value stored in the variable ``a`` is strictly less than that stored in the ``b`` variable."
+msgstr "En mathématique, nous définissons des intervalles, clos, ouverts et semi-ouverts. L'intervalle semi-ouvert :math:`[3,7[` inclus tous les nombres réels plus grand ou égaux à `3` et strictement plus petit que 7. Lesquels des fragments de code suivants affichent ``true`` sur la sortie standard si et seulement si ``x`` appartient à l'intervalle :math:`[a, b[` ? Nous supposons pour cette question que la valeur stockée dans la variable ``a`` est strictement plus petite ou égale à celle stockée dans la variable ``b``."
+
+#. name, qcm10, text
+#: SessTest_QCM/task.yaml
+msgid ".. code:: python\n"
+"\n"
+"    if x <= a and x < b:\n"
+"        print('true')"
+msgstr ".. code:: python\n"
+"\n"
+"    if x <= a and x < b:\n"
+"        print('true')"
+
+#. name, qcm10, feedback
+#: SessTest_QCM/task.yaml
+msgid "Is there any way for ``x`` to be between ``a`` and ``b`` with this condition?"
+msgstr "Y a-t-il un moyen pour ``x`` d'être entre ``a`` et ``b`` avec cette condition?"
+
+#. name, qcm10, text
+#: SessTest_QCM/task.yaml
+msgid ".. code:: python\n"
+"\n"
+"    if a < x and x < b:\n"
+"        print('true')"
+msgstr ".. code:: python\n"
+"\n"
+"    if a < x and x < b:\n"
+"        print('true')"
+
+#. name, qcm10, feedback
+#: SessTest_QCM/task.yaml
+msgid "What happens if ``x == a`` ?"
+msgstr "Que se passe-t-il si ``x == a`` ?"
+
+#. name, qcm10, text
+#: SessTest_QCM/task.yaml
+msgid ".. code:: python\n"
+"\n"
+"    if a <= x and x < b:\n"
+"        print('true')"
+msgstr ".. code:: python\n"
+"\n"
+"    if a <= x and x < b:\n"
+"        print('true')"
+
+#. name, qcm11, name
+#: SessTest_QCM/task.yaml
+msgid "Operators usages"
+msgstr "Utilisation des opérateurs"
+
+#. name, qcm11, header
+#: SessTest_QCM/task.yaml
+msgid "Which of the following code fragments prints 14?"
+msgstr "Lequel de ces fragments de code imprimera 14?"
+
+#. name, qcm11, text
+#: SessTest_QCM/task.yaml
+msgid ".. code-block:: python\n"
+"\n"
+"    print(43/3)"
+msgstr ".. code-block:: python\n"
+"\n"
+"    print(43/3)"
+
+#. name, qcm11, feedback
+#: SessTest_QCM/task.yaml
+msgid "The result of the division is 14.333333334"
+msgstr "Le résultat de la division est 14.333333334"
+
+#. name, qcm11, text
+#: SessTest_QCM/task.yaml
+msgid ".. code-block:: python\n"
+"\n"
+"    to_print = '1'\n"
+"    print(to_print + 4)"
+msgstr ".. code-block:: python\n"
+"\n"
+"    to_print = '1'\n"
+"    print(to_print + 4)"
+
+#. name, qcm11, feedback
+#: SessTest_QCM/task.yaml
+msgid "You cannot concatenate a string and an int."
+msgstr "La concaténation d'un string et d'un int n'est pas possible."
+
+#. name, qcm11, text
+#: SessTest_QCM/task.yaml
+msgid ".. code-block:: python\n"
+"\n"
+"    print(43//3)"
+msgstr ".. code-block:: python\n"
+"\n"
+"    print(43//3)"
+
+#. context
+#: Sort/task.yaml
+msgid "In computer science, a sorting algorithm is an algorithm that puts the elements of a list in a certain order. The most-used orders are numerical order and lexicographical order. Efficient sorting is important for optimizing the use of other algorithms (such as search and merge algorithms) which require input data to be in sorted lists; it is also often useful for canonicalizing data and for producing human-readable output. More formally, the output must satisfy two conditions:\n"
+"\n"
+"* The output is in nondecreasing order (each element is no smaller than the previous element according to the desired total order);\n"
+"* The output is a permutation (reordering but with all of the original elements) of the input."
+msgstr "En sciences informatiques, un algorithme de tri est un algorithme qui met les éléments d'une liste dans un certains ordre. Les plus utilisés sont les ordres numériques et lexicaux. Un tri efficace est important pour optimiser l'utilisation d'autres algorithmes (tels que les algorithmes de recherches et de fusions) qui ont besoin que les données reçues soient triées; c'est également utilisé dans la canonisation de données ou la production de données lisibles par l'humain. Plus formellement, la sortie doit satisfaire à deux conditions:\n"
+"\n"
+"* Le résultat est en ordre non décroissant (chaque élément n'est pas plus petit que l'élément précédent en accord avec l'ordre désiré)\n"
+"* Le résultat est une permutation (réarrangement des éléments originaux) de ce qui est donné en entrée."
+
+#. name
+#: Sort/task.yaml
+msgid "Session 5: List sorting"
+msgstr "Session5: Tri de liste"
+
+#. name, q1, header
+#: Sort/task.yaml
+msgid ".. code-block:: python\n"
+"\n"
+"    a_list = ... #list to sort\n"
+"    sorted_list = ... #store in this variable the sorted version of the list"
+msgstr ".. code-block:: python\n"
+"\n"
+"    a_list = ... #liste à trier\n"
+"    sorted_list = ... #stockez dans cette variable la version triée de la liste"
+
+#: Sort/src/TestSort.py:14
+msgid "Nice try! But 'sort' has been disabled for list objects.\n"
+"\t\tPlease enter an actual algorithm sorting the list."
+msgstr "Bien essayé! Mais 'sort' a été désactivé pour les objets de type liste.\n"
+"\t\tMerci d'entre un algorithme qui triera la listet."
+
+#: Sort/src/TestSort.py:21
+msgid "The sorted version of {} is {} and you returned {}."
+msgstr "La version triée de {} est {} et vous avez retourné {}."
+
+#: Sort/src/Templates/sort:6
+msgid "Nice try! But 'sorted' has been disabled for list objects.\n"
+"\t\tPlease write an actual algorithm sorting the list."
+msgstr "Bien essayé! Mais 'sorted' a été désactivé pour les objets de type liste.\n"
+"\t\tMerci d'écrire un algorithme triant réellement la liste."
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "Implement the function ``max(lst)`` in Python."
+#~ msgstr "Implémentez la fonction ``max(lst)`` en Python."
+
+#~ msgid "[LSINF1101-PYTHON] Introduction à la programmation"
+#~ msgstr "[LSINF1101-PYTHON] Introduction à la programmation"

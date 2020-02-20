@@ -1,0 +1,17 @@
+name: Python Test
+accessible: true
+admins:
+- ashish
+tutors: []
+groups_student_choice: false
+use_classrooms: true
+allow_unregister: true
+registration: true
+registration_password: null
+registration_ac: null
+registration_ac_list: []
+allow_preview: false
+is_lti: false
+lti_keys: {}
+lti_send_back_grade: false
+description: ''

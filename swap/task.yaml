@@ -1,0 +1,40 @@
+accessible: true
+author: ''
+categories: []
+context: |-
+    Write a function to input a number as parameter and swap its digits and return the result.
+
+    | Example input
+    | swap(79)
+    |
+    | Example output
+    | 97
+
+    **These inputs are passed as parameters to a function. return the output**
+environment: default
+evaluate: best
+file: ''
+groups: false
+input_random: '0'
+limits:
+    memory: '100'
+    output: '2'
+    time: '30'
+name: Swap digits
+network_grading: false
+order: 3
+problems:
+    q1:
+        default: |-
+            def swap(number):
+            # return the number
+        type: code
+        name: Write code below
+        language: python
+        header: ''
+run_cmd: ''
+stored_submissions: 0
+submission_limit:
+    amount: -1
+    period: -1
+weight: 1.0
